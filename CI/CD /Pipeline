@@ -1,0 +1,20 @@
+## CI/CD Pipeline
+
+This repository uses **GitHub Actions** for automated quality control and deployment.
+
+### Pipeline Features
+- **Linting**: Ruff + Black
+- **Type Checking**: mypy
+- **Testing**: pytest with coverage
+- **Containerization**: Docker build + compose validation
+- **Staging Deploy**: Placeholder ready for Airflow, cloud, or Tableau integration
+
+### Running Locally
+```bash
+# Install dev dependencies
+pip install -r requirements.txt
+
+# Run linting & tests
+ruff check src/
+black --check src/
+pytest tests/
