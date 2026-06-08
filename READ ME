@@ -1,0 +1,15 @@
+artifacts/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── Vital_Parks_Data_Intelligence_Platform_Project_Plan.md
+├── docker-compose.yml
+├── executive_brief_template.md
+├── project_structure_suggestion.md
+├── sample_code_structure.md
+└── docs/
+    ├── architecture/
+    │   └── architecture_diagram.mmd
+    ├── stakeholder_comms/
+    │   └── workshop_agenda_template.md
+    └── timeline_gantt.md
